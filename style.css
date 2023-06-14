@@ -86,6 +86,7 @@ a:hover {
     background: linear-gradient(to right, #6dd5ed, #2193b0);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 350px;
+    border-radius: 20px;
 }
 
 .left-col {
@@ -201,7 +202,7 @@ a:hover {
 
 .top-box,
 .middle-box {
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 100px;
 }
 
@@ -242,8 +243,8 @@ a:hover {
 }
 
 .about-container {
+    padding-left: 40px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     flex-direction: row;
     font-family: 'Roboto', 'san-serif';
