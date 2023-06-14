@@ -105,12 +105,14 @@ a:hover {
     line-height: 50px;
     font-size: 40px;
     font-weight: 800px;
+    text-shadow: 2px 2px #daecf0;
+    cursor: pointer;
 }
 
 .right-col {
     margin-top: 50px;
     flex-basis: 50%;
-    border-left: 1px solid rgb(243, 240, 240);
+    /*border-left: 1px solid rgb(243, 240, 240); */
     padding-left: 50px;
 }
 
@@ -250,25 +252,31 @@ a:hover {
     background: linear-gradient(to right, #6dd5ed, #2193b0);
 }
 
+
+/* about */
+
 .about-container {
+    margin-top: 50px;
     padding-left: 40px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     font-family: 'Roboto', 'san-serif';
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
 }
 
 .about-container p {
-    color: #DC281E;
+    color: #fff;
+    font-size: 20px;
 }
 
 .about-container a {
-    color: #2193b0;
+    color: #DC281E;
 }
 
 #about .left-col {
     width: 50%;
-    max-width: 400px;
+    max-width: 500px;
     padding-left: 40px;
     line-height: 40px;
 }
